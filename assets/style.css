@@ -1,0 +1,118 @@
+body{
+	margin:0;
+	padding: 0;
+}
+header .polyimg1{
+    background-image: url("img/banner bg 2of1.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-position-x: 5px;	
+	padding: 0 0 0 25px;		  
+}
+header .polyimg{
+    background-image: url("img/banner img.jpg");
+    clip-path: polygon(61% 0%, 100% 0, 100% 100%, 3% 100%, 18% 20%);   
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-position-x: -95px;			  
+}
+.navbar-nav li{
+	font-size: 13px;
+	padding:6px 4px;
+}
+#section{
+	padding: 50px 0;
+}
+h1{
+	padding: 20px 0;
+	font-size: 25px;
+	font-weight: bold;
+}
+h5,h6{
+	padding: 7px 0;
+}
+p{
+	font-size: 15px;
+	padding: 10px 0;
+}
+.features{
+	background-image: url("img/Rectangle 32 copy 5.png"),url("img/Rectangle 32 copy 4.png");
+    background-repeat: no-repeat;
+    background-position-x: -182px, right;
+    background-position-y: -56px,-50px;
+}
+.card{
+	box-shadow: -4px 28px 36px #E5E7EB;
+	border: none;
+	border-radius: 10px;
+}
+.card-img{
+	text-align:center;
+	border: 1px solid #cec6c6c7;
+	border-radius: 8px;
+	padding: 5px;
+}
+.color-with-pseudo{
+	margin: 0 -22px;
+	list-style: none;
+}
+.color-with-pseudo li{
+	padding: 5px 0;
+    font-size: 14px;
+}
+.color-with-pseudo li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: blue; 
+  font-size: 130%;
+  font-weight: bold; 
+  display: inline-block; 
+  width: 1em; 
+  margin-left: -1em; 
+}
+.subscribe input{
+	border-radius: 20px;
+    border: none;
+    padding: 6px 14px;
+    font-size: 13px;
+    width: 185px;
+}
+.subscribe button{
+	color: #fff;
+    position: relative;
+    right: 45px;
+    border-radius: 50%;
+    top: 0px;
+    bottom: 4px;
+    width: 15%;
+    margin: 2px;
+    border: none;
+    background-color: #0051D1;
+    font-size: 10px;
+    box-shadow: -1px 3px 8px #0051D1;
+}
+.btn{
+	width: 100%;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+.btn.btn-primary{
+	background-color: #0051D1;
+	border: none;
+}
+.footer{
+	background-image: url("img/footer bg 1.png"),url("img/footer bg 2.png"),url("img/footer bg 3.png");
+    background-repeat: no-repeat;
+    background-position-x: -21px, 295px,right;
+    background-position-y: -80px,86px,53px;
+    background-size: contain;
+    background-blend-mode: color-dodge;
+}
+.footer li{
+	padding: 5px 0;
+	font-size: 12px;
+}
+.logo{
+	padding: 15px 0;
+}
